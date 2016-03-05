@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial;
+}
+
+div.todo-wrapper{
+    padding: 5px;  
+    margin-bottom: 10px;
+    font-size: 15px  
+}
+
+div.todo-wrapper.removed{
+    display: none;
+}
+
+span.todo-name {
+    padding-left:3px;
+}
+
+.inactive{
+    text-decoration: line-through;
+}
+
+div.todo-description{
+    padding-top: 5px;
+}
+
+div.todo-actions{
+    padding-top: 3px;
+}
+
+a.toggle-todo {}
+a.remove-todo {}
+
+span.todo-action-spacer{
+    padding: 0 3px;   
+}
+
+div.form-wrapper{
+    font-weight: bold;   
+    padding-bottom: 3px;
+    padding-left: 5px; 
+}
+
+#nameInput{
+    padding: 2px;
+    display:block;
+}
+
+textarea#nameDescription{
+    height: 100px;
+    width: 300px;
+    display: block;
+    margin-top: 5px;
+    padding: 2px;   
+}
+
+button#submitButton{
+    margin-top: 5px;
+}
